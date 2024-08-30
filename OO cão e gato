@@ -1,0 +1,71 @@
+class cachorro:
+    #construtor
+    def __init__(self,Nome, raça, porte, cor):
+        self.nome = Nome
+        self.raça = raça
+        self.porte = porte
+        self.cor = cor
+
+
+    def Info(self):
+        print("Onde estão as informações deste cochorro?")
+
+    def Comer(self):
+        print("O cachorro esta comendo")
+
+    def Nome(self):
+        print("Nome: Rex")
+    
+    def Raça(self):
+        print("Raça: Labrador")
+
+    def Porte(self):
+        print("Porte: Grande")
+
+    def Cor(self):
+        print("Cor: Branco\n")
+
+class gato:
+    #construtor
+    def __init__(self,Nome, porte, cor, nivel_de_chatisse):
+        self.nome = Nome
+        self.porte = porte
+        self.cor = cor
+        self.nivel_de_chatisse = nivel_de_chatisse 
+    
+    def Info(Self):
+        print("Onde estã as informações desta praga?")
+
+    def Nome(self):
+        print("Nom: Jorge")
+
+    def Porte(self):
+        print("Porte: Medio")
+
+    def Cor(self):
+        print("Cor: Cinza")
+
+    def Nivel_de_Chatisse(self):
+        print("Nivel de chatisse: Altissimo")
+
+    def Comer(Self):
+        print("O gato esta comendo")
+
+
+Rex = cachorro("Rex", "Labrador", "Grande", "Branco")
+
+Rex.Info()
+
+Rex.Nome()
+Rex.Raça()
+Rex.Porte()
+Rex.Cor()
+
+Jorge = gato("Jorge", "Medio", "Cinza", "Altissimo")
+
+Jorge.Info()
+
+Jorge.Nome()
+Jorge.Porte()
+Jorge.Cor()
+Jorge.Nivel_de_Chatisse()
